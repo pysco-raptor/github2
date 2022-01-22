@@ -1,0 +1,55 @@
+.heading
+{font-size:23px;
+    width:100%;
+    margin:0px;
+
+}
+.note
+{
+    font: size 15px;
+    color: black;
+
+}
+body{
+    background-size:cover;
+}
+.div_Song1
+{
+    float:left;
+
+}
+
+.div_Song1_img
+{
+    width:200px;
+    border-radius:100px;
+}
+#Song1
+{
+    font-size:23px;
+    margin:15px;
+}
+.div_Song2
+{
+    float:right;
+}
+.div_Song2_img
+{
+    width:200px;
+    border-radius:100px;
+
+}
+#Song2
+{
+    font-size:23px;
+    margin:15px;
+}
+.play_button
+{
+width:130px;
+font-size:25px;
+}
+canvas{
+    border:5px solid white;
+    border-radius:20px;
+}
