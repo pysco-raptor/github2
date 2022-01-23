@@ -38,6 +38,17 @@ function modelLoaded(){
 }
 function draw(){
     image(video,0,0,600,500)
+  fill("#acace6");
+        stroke("#acace6");
+        if(scoreLeftWrist>0.2)
+        {
+            circle(leftWristX,leftWristY,20);
+            InNumberleftWristY=Number(leftWristY);
+            remove_decimals=floor(InNumberleftWristY);
+            volume=remove_decimals/500;
+            document.getElementById("song").innerHTML="song"+song;
+            song.setSong(song);
+        }
 }
 function play()
 {
